@@ -1,7 +1,7 @@
 PROG=test
 CFLAGS=-c -Wall -std=c++14 -g
 LIBS=
-ALL_SOURCES=main.cpp
+ALL_SOURCES=main.cpp grammer.cpp
 ALL_OBJECTS=$(ALL_SOURCES:.cpp=.o)
 
 .PHONY: clean all

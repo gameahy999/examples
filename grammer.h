@@ -12,5 +12,6 @@ private:
 
 void test_operatorEqual();
 void test_deleteNull();
+void test_objectInitialize();
 
 #endif

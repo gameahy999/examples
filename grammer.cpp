@@ -5,7 +5,7 @@ using namespace std;
 
 OperatorTest::OperatorTest()
         : x_(0) {
-
+    cout << "Constructor is called" << endl;
 }
 
 OperatorTest::~OperatorTest() {
@@ -25,4 +25,10 @@ void test_deleteNull() {
     OperatorTest *pot = NULL;
     delete pot;
     cout << "Yes" << endl;
+}
+
+void test_objectInitialize() {
+    // no need to write "OperatorTest ot = OperatorTest();" any more
+    OperatorTest ot;
+    ot(12);
 }

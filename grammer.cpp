@@ -17,11 +17,11 @@ void OperatorTest::operator ()(const int a) {
     cout << "a == " << a << endl;
 }
 
-string& createTmpString() {
-    string tmp("Hello World!");
-    cout << tmp << endl;
-    return tmp;
-}
+//string& createTmpString() {
+//    string tmp("Hello World!");
+//    cout << tmp << endl;
+//    return tmp;
+//}
 
 TestReference::TestReference() : s("Hi World!") {
 
@@ -41,8 +41,8 @@ void test_referenceToStringInClass() {
 
 void test_referenceToString() {
     // it will trigger a warning message
-    string &s = createTmpString();
-    cout << s << endl;
+    // string &s = createTmpString();
+    // cout << s << endl;
 }
 
 void test_operatorEqual() {

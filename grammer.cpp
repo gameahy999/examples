@@ -31,6 +31,16 @@ std::string& TestReference::getStringReference() {
     return this->s;
 }
 
+void Inherit::saySomething() {
+
+}
+
+void test_inherit() {
+    Inherit i = Inherit();
+    i.setAge(12);
+    std::cout << i.getAge() << std::endl;
+}
+
 void test_referenceToStringInClass() {
     TestReference *tr = new TestReference();
     string& tmp = tr->getStringReference();

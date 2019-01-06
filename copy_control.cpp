@@ -1,4 +1,5 @@
 #include <iostream>
+#include <memory>
 
 #include "copy_control.h"
 #include "utils.h"
@@ -26,6 +27,17 @@ Person func2() {
     return p;
 }
 
+std::unique_ptr<Person> getPersonPtr() {
+    auto ptr = std::make_unique<Person>();
+    return ptr;
+}
+
+void test_copyUniquePtr() {
+    std::unique_ptr<Person> personPtr;
+    personPtr = getPersonPtr();
+    std::cout << personPtr->getName() << std::endl;
+}
+
 void test_copyControl() {
     utils::separator();
     Person p;
@@ -40,4 +52,25 @@ void test_copyControl() {
 
     utils::separator(3);
     tmp = p1;
+}
+
+class Holder {
+public:
+    Holder() {}
+    Person &getPersonReference();
+private:
+    Person p;
+};
+
+Person &Holder::getPersonReference() {
+    return p;
+}
+
+void test_copyReference() {
+    Holder h = Holder();
+    std::cout << "======================" << std::endl;
+
+    Person p = h.getPersonReference();
+
+    std::cout << "======================" << std::endl;
 }

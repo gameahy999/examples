@@ -18,6 +18,8 @@ private:
     std::string name_;
 };
 
+void test_copyUniquePtr();
 void test_copyControl();
+void test_copyReference();
 
 #endif

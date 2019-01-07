@@ -1,11 +1,12 @@
 PROG=test
 CFLAGS=-c -Wall -std=c++14 -g
-LIBS=
+LIBS=-lpthread
 
 ALL_SOURCES := main.cpp
 ALL_SOURCES += copy_control.cpp
 ALL_SOURCES += grammer.cpp
 ALL_SOURCES += misc.cpp
+ALL_SOURCES += standard_library.cpp
 ALL_SOURCES += utils.cpp
 
 ALL_OBJECTS=$(ALL_SOURCES:.cpp=.o)

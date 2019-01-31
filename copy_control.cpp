@@ -4,8 +4,14 @@
 #include "copy_control.h"
 #include "utils.h"
 
+// static const Person static_p = Person();
+
 Person::Person() : age_(0), name_("LiLei") {
     std::cout << "Default Constructor" << std::endl;
+}
+
+Person::Person(int a, const std::string &name) : age_(a), name_(name) {
+    std::cout << "Construct with specified age & name." << std::endl;
 }
 
 Person::Person(const Person &p) {
@@ -14,6 +20,11 @@ Person::Person(const Person &p) {
 
 Person& Person::operator =(const Person &p) {
     std::cout << "Assignment Operator" << std::endl;
+    return *this;
+}
+
+Person& Person::operator =(const Person &&p) {
+    std::cout << "Move Assignment Operator" << std::endl;
     return *this;
 }
 
@@ -73,4 +84,16 @@ void test_copyReference() {
     Person p = h.getPersonReference();
 
     std::cout << "======================" << std::endl;
+}
+
+void test_copyFromStaticVariable() {
+    /*
+    Person tmp_p = Person(1, "Hanmeimei");
+    tmp_p = std::move(static_p);
+
+    utils::separator(1);
+
+    Person tmp_p1 = Person();
+    tmp_p = tmp_p1;
+    */
 }

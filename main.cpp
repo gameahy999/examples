@@ -1,10 +1,13 @@
 #include "copy_control.h"
 #include "grammer.h"
+#include "memory_leak.h"
 #include "misc.h"
 #include "standard_library.h"
 
 int main() {
-    test_future();
+    test_memoryLeak();
+    // test_copyFromStaticVariable();
+    // test_future();
     // test_inherit();
     // test_sortAlgorithms();
     // test_copyReference();

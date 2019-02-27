@@ -2,11 +2,11 @@
 #include <math.h>
 #include "math_experiment.h"
 
-double sigmoid(double x) {
+float sigmoid(float x) {
     return (1 / (1 + exp(-x)));
 }
 
-double cal(double x) {
+float cal(float x) {
     return 2 - 2 * sigmoid(x);
 }
 

@@ -1,11 +1,16 @@
 #include "copy_control.h"
 #include "grammer.h"
+#include "math_experiment.h"
 #include "memory_leak.h"
 #include "misc.h"
 #include "standard_library.h"
 
 int main() {
-    test_memoryLeak();
+    test_sigmoid();
+    // test_memoryUsedForCStyleStringInArray();
+    // test_memoryUsedForCStyleString();
+    // test_memoryUsedForString();
+    // test_memoryLeak();
     // test_copyFromStaticVariable();
     // test_future();
     // test_inherit();

@@ -39,5 +39,6 @@ void test_referenceToString();
 void test_operatorEqual();
 void test_deleteNull();
 void test_objectInitialize();
+void test_typeid();
 
 #endif

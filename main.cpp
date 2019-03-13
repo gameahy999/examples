@@ -6,7 +6,8 @@
 #include "standard_library.h"
 
 int main() {
-    test_sigmoid();
+    test_typeid();
+    // test_sigmoid();
     // test_memoryUsedForCStyleStringInArray();
     // test_memoryUsedForCStyleString();
     // test_memoryUsedForString();

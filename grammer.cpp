@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <typeinfo>
 
 #include "grammer.h"
 
@@ -71,4 +72,20 @@ void test_objectInitialize() {
     // no need to write "OperatorTest ot = OperatorTest();" any more
     OperatorTest ot;
     ot(12);
+}
+
+class KnnSkuSearcher {
+public:
+    int a = 5;
+};
+
+void test_typeid() {
+    OperatorTest ot;
+    cout << typeid(ot).name() << endl;
+
+    int a = 5;
+    cout << typeid(a).name() << endl;
+
+    KnnSkuSearcher s;
+    cout << typeid(s).name() << endl;
 }

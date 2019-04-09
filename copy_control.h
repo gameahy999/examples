@@ -12,14 +12,17 @@ public:
     Person& operator=(const Person &p);
     Person& operator=(const Person &&p);
 
+    void setAge(int age) {age_ = age;}
     int getAge() const {return age_;}
-    std::string getName() const {return name_;}
+    const std::string& getName() const {return name_;}
+    void setName(const std::string& name) {name_ = name;}
 
 private:
     int age_;
     std::string name_;
 };
 
+void test_wasteOrNot();
 void test_copyUniquePtr();
 void test_copyControl();
 void test_copyReference();

@@ -1,5 +1,7 @@
 #include <iostream>
 #include <memory>
+#include <string>
+#include <unordered_map>
 
 #include "copy_control.h"
 #include "utils.h"
@@ -26,6 +28,29 @@ Person& Person::operator =(const Person &p) {
 Person& Person::operator =(const Person &&p) {
     std::cout << "Move Assignment Operator" << std::endl;
     return *this;
+}
+
+Person getPersonInfo() {
+    Person p;
+    p.setAge(12);
+    p.setName("Hanmeimei");
+    return p;
+}
+
+void fillPersonInfo(Person& p) {
+    p.setAge(12);
+    p.setName("Xiaohan");
+}
+
+void test_wasteOrNot() {
+    std::unordered_map<std::string, Person> personMap;
+    getPersonInfo();
+//    Person p;
+//    fillPersonInfo(p);
+//    personMap.emplace("someone", p);
+//     personMap.emplace("someone", getPersonInfo());
+//    personMap.insert(std::make_pair<std::string, Person>("someone", getPersonInfo()));
+//    personMap["someone"] = getPersonInfo();
 }
 
 void func1(Person p) {

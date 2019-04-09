@@ -4,9 +4,12 @@
 #include "memory_leak.h"
 #include "misc.h"
 #include "standard_library.h"
+#include "template_specialization.h"
 
 int main() {
-    test_typeid();
+    test_templateSpecialization();
+    // test_wasteOrNot();
+    // test_typeid();
     // test_sigmoid();
     // test_memoryUsedForCStyleStringInArray();
     // test_memoryUsedForCStyleString();

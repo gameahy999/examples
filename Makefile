@@ -9,6 +9,7 @@ ALL_SOURCES += math_experiment.cpp
 ALL_SOURCES += memory_leak.cpp
 ALL_SOURCES += misc.cpp
 ALL_SOURCES += standard_library.cpp
+ALL_SOURCES += template_specialization.cpp
 ALL_SOURCES += utils.cpp
 
 ALL_OBJECTS=$(ALL_SOURCES:.cpp=.o)

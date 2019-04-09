@@ -1,6 +1,7 @@
 #ifndef __TEMPLATE_SPECIALIZATION_H__
 #define __TEMPLATE_SPECIALIZATION_H__
 
+#include <iostream>
 #include <string>
 #include <vector>
 #include <utility>

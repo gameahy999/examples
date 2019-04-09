@@ -7,7 +7,8 @@
 #include "template_specialization.h"
 
 int main() {
-    test_templateSpecialization();
+    test_bitset();
+    // test_templateSpecialization();
     // test_wasteOrNot();
     // test_typeid();
     // test_sigmoid();

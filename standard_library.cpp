@@ -1,3 +1,4 @@
+#include <bitset>
 #include <chrono>
 #include <future>
 #include <iostream>
@@ -33,4 +34,9 @@ void test_future() {
     } else {
         std::cout << "It is not prime.\n";
     }
+}
+
+void test_bitset() {
+    std::bitset<64> bitvec;
+    std::cout << sizeof(bitvec) << std::endl;
 }

@@ -1,5 +1,6 @@
 #include "copy_control.h"
 #include "grammer.h"
+#include "long_integer.h"
 #include "math_experiment.h"
 #include "memory_leak.h"
 #include "misc.h"
@@ -7,7 +8,8 @@
 #include "template_specialization.h"
 
 int main() {
-    test_bitset();
+    test_longInteger();
+    // test_bitset();
     // test_templateSpecialization();
     // test_wasteOrNot();
     // test_typeid();

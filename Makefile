@@ -5,6 +5,7 @@ LIBS=-lpthread
 ALL_SOURCES := main.cpp
 ALL_SOURCES += copy_control.cpp
 ALL_SOURCES += grammer.cpp
+ALL_SOURCES += long_integer.cpp
 ALL_SOURCES += math_experiment.cpp
 ALL_SOURCES += memory_leak.cpp
 ALL_SOURCES += misc.cpp

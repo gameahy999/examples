@@ -2,6 +2,7 @@
 #include <memory>
 #include <string>
 #include <unordered_map>
+#include <vector>
 
 #include "copy_control.h"
 #include "utils.h"
@@ -121,4 +122,19 @@ void test_copyFromStaticVariable() {
     Person tmp_p1 = Person();
     tmp_p = tmp_p1;
     */
+}
+
+class Item {
+public:
+    Item(int a, int b) : a_(a), b_(b) {}
+    int a_;
+    int b_;
+};
+
+void test_copyToVector() {
+    std::vector<Item> items;
+    items.push_back(Item(1, 2));
+    std::cout << "size: " << items.size() << std::endl;
+    items.push_back(Item(1, 3));
+    std::cout << "size: " << items.size() << std::endl;
 }

@@ -2,5 +2,6 @@
 #define __LONG_INTEGER_H__
 
 void test_longInteger();
+void test_int64();
 
 #endif

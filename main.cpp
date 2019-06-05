@@ -4,11 +4,15 @@
 #include "math_experiment.h"
 #include "memory_leak.h"
 #include "misc.h"
+#include "parallel_programming.h"
 #include "standard_library.h"
 #include "template_specialization.h"
 
 int main() {
-    test_longInteger();
+    test_copyToVector();
+    // test_int64();
+    // test_openMP();
+    // test_longInteger();
     // test_bitset();
     // test_templateSpecialization();
     // test_wasteOrNot();

@@ -9,7 +9,9 @@
 #include "template_specialization.h"
 
 int main() {
-    test_copyToVector();
+    test_callerAndCallee();
+    test_callerAndCalleeFromOuterModule(1, 2, 3);
+    // test_copyToVector();
     // test_int64();
     // test_openMP();
     // test_longInteger();

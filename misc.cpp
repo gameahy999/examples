@@ -37,6 +37,26 @@ int calleeWithManyParameters(int a, int b, int c, int d, int e, int f,
     return a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r;
 }
 
+int calleeWithForLoop(int index) {
+    int ret = 0;
+    for (int i = 0; i < index; i++) {
+        ret += i;
+    }
+    return ret;
+}
+
+void dummySwap(int a, int b) {
+    int tmp = a;
+    a = b;
+    b = tmp;
+}
+
+void realSwap(int& a, int& b) {
+    int tmp = a;
+    a = b;
+    b = tmp;
+}
+
 int caller() {
     int ret = 0;
     ret = callee(1, 2, 3);
@@ -47,6 +67,15 @@ int caller() {
 
     int c = calleeWithManyParameters(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18);
     ret += c;
+
+    int d = calleeWithForLoop(12);
+    ret += d;
+
+    std::cout << "b: " << b << ", c: " << c << std::endl;
+    dummySwap(b, c);
+    std::cout << "b: " << b << ", c: " << c << std::endl;
+    realSwap(b, c);
+    std::cout << "b: " << b << ", c: " << c << std::endl;
 
     return ret;
 }

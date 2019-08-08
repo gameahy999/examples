@@ -7,10 +7,12 @@
 #include "parallel_programming.h"
 #include "standard_library.h"
 #include "template_specialization.h"
+#include "test_json.h"
 
 int main() {
-    test_callerAndCallee();
-    test_callerAndCalleeFromOuterModule(1, 2, 3);
+    test_json();
+    // test_callerAndCallee();
+    // test_callerAndCalleeFromOuterModule(1, 2, 3);
     // test_copyToVector();
     // test_int64();
     // test_openMP();

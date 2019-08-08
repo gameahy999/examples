@@ -1,0 +1,198 @@
+syntax = "proto2";
+
+option java_multiple_files = true;
+option java_package = "com.jd.recproxy.jsf";
+option java_outer_classname = "RecProxyProto";
+
+package com.jd.recproxy.server;
+
+message RecProxyRequest {
+  required int64  pid = 1;  //推荐位id
+  optional string uuid = 2; //设备id
+  optional string pin = 3;  //用户账号
+  optional string lid = 4;  //四级库存地址
+  optional int64  sku = 5;  //主sku
+  repeated int64  skus = 6;  //多个sku
+  optional int32  categoryLevel1 = 7;  //一级分类
+  optional int32  categoryLevel2 = 8;  //二级分类
+  optional int32  categoryLevel3 = 9;  //三级分类
+  optional int32  shopId = 10;  //店铺id
+  optional string ageSpec = 11;  //age spec
+  optional string from = 12;  //jimdb selection
+  optional string hint = 13;  //hi参
+  optional int32  limit = 14 [default = -1];  //结果数
+  optional bool   ev = 15;   //ev
+  optional string content = 16;
+  optional bool   noCache = 17;  //fq
+  optional string encoding = 18;
+  optional string callback = 19;
+  optional string fdbg = 20;
+  optional string rcd = 21;
+  optional string dcd = 22;
+  optional string minfo = 23;
+  optional Site   site =24;
+  optional bool   pageCache = 25;  //pgc
+  optional int32  unionBkt = 26 [default = -1];
+  optional bool   noRecord = 27;
+  optional string version = 28;
+  optional string client = 29;
+  optional string palantirEid = 30;
+  optional string requestId = 31;
+  optional string debug = 32;
+  optional string debugQuery = 33;
+  optional string expConf = 34;
+  optional string forceBot = 35;
+  optional bool   randomOrder = 36;
+  optional string forceExp = 37;
+  optional bool   forceNoExp = 38;
+  optional string directIp = 39;
+  optional string degradeLevel = 40;
+  optional bool   unLimit = 41;
+}
+
+//站点标识
+enum Site {
+  CN = 0;//主站
+  TH = 1;//泰国站
+  EPI = 2;//印尼站
+  EPT = 3;//海外站
+  SF = 4;//7fresh
+  SP = 5;//二手拍拍
+}
+
+message RecProxyReply {
+  required string encode = 1; // 返回数据的编码
+  required bool   success  = 2;
+  required string errorMsg = 3 [default = ""];
+  required int64  latency = 4;
+  optional string eid = 5;  //实验id
+  required string impr = 6;
+  optional DebugInfo debugInfo = 7;
+  repeated RecItem data = 8;
+  required RecMode recMode = 9;
+  required int64 count = 10; // 返回结果数量
+  required int32 responseCode = 11;
+  required string requestId = 12; //request id,用于追踪请求
+}
+
+message RecItem {
+  optional int64 sku = 1;
+  optional int64 spu =2;
+  optional string vspu = 3;
+  optional int32 cid1 = 4;
+  optional int32 cid2 = 5;
+  optional int32 cid3 = 6;
+  optional int32 renewal = 7; // 是否续重 1-续重 0 -不续重
+  required string itemId = 8 [default = ""];
+  optional string title = 9 [default = ""];
+  optional string subTiTle = 10;
+  optional string image = 11 [default = ""];
+  optional string brandName = 12 [default = ""];
+  optional string clk = 13 [default = ""];
+  optional string impr = 14 [default = "1"];  //默认1
+  optional string weight = 15;  //重量
+  optional double score = 16;  //权重值
+  optional string turl = 17 [default = ""];
+  optional string jdPrice = 18 [default = ""];
+  optional string marketPrice = 19 [default = ""];
+  optional string RecommendType = 20 [default = "0"];
+  optional string deliveryId = 21;
+  optional string channelId = 22;
+  optional string ruleId = 23;
+  optional string floorId = 24;
+  optional string channelDid = 25;
+  optional string contentSubPosition = 26;
+  optional string contentType = 27;
+  optional string moduleId = 28;
+  optional string gender = 29;
+  optional string quarter = 30;
+  optional string prcGrade = 31;
+  repeated SubSku subSku = 32;
+  repeated RecItem subItem = 33;
+  repeated TipShow tips = 34;
+  optional Reason reason = 35;  //推荐理由
+  optional string onTime = 36;//上架时间
+  optional string shopId = 37;//shopId
+  optional int32  flag = 38;  //是否是好价好货，1/0
+  optional int32  evaNum = 39;  //商品评价数
+  optional double evaLevel = 40;  //商品评价星级
+  optional string desc = 41;  //店铺描述
+  optional string proId = 42;  //促销id
+  optional string exposalStr = 43;  //曝光短链
+  optional int32  exposalType = 44;  //曝光类型
+  optional string reqSig = 45; //请求签名
+  optional string brokerInfo = 46;  //存储mixer下发的联合实验id以及request_id
+  optional string authorName = 47;  //UGC素材作者(达人)名字
+  optional string authorIcon = 48;  //UGC素材作者(达人)头像
+  optional string shareId = 49;  //UGC素材跳转链接
+}
+
+enum RecMode {
+  UnKnown = 0;
+  Hub = 1;
+  Broadway = 2;
+  WeakPersonalize = 3;
+  ColdStartCache = 4;
+  EmergencyHub = 5;
+}
+
+message SubSku {
+  optional int64 sku = 1;
+  optional string hint =2;//提示信息
+  optional string image = 3; //图片地址
+  optional string jdPrice = 4;  //京东价
+  optional string marketPrice = 5;  //市场价
+  optional string color = 6;  //颜色
+  optional string title = 7;
+  optional double score = 8;  //权重 w
+  optional string brandName = 9;
+  optional int64  spu = 10;
+  optional string vspu = 11;
+  optional int32  cid3 = 12;
+  optional string weight = 13;  //重量 千克
+  optional string onTime = 14;
+  repeated TipShow tips = 15;
+  optional string gender = 16;
+  optional string quarter = 17;
+  optional string prcGrade = 18;
+  optional string imageType = 19;
+  optional string deliveryId = 20;
+  optional string brokerInfo = 21;  //存储mixer下发的联合实验id以及request_id
+}
+
+message TipShow {
+  optional int32 t = 1; //标签类型
+  optional string v = 2; //标签值
+}
+
+message Reason {
+  optional string predictorName = 1; // 来自哪一个预测器
+  optional string explain = 2; // 解释性文字
+  repeated RecClue recClue = 3; // 推荐线索
+}
+
+// 召回结果的线索
+message RecClue {
+  optional string seed = 1; // 被哪个种子召回的
+  optional string table = 2; // 被哪个数据表召回
+  optional int32 tag = 3; // 被哪个召回源召回
+}
+
+message pair {
+  optional string key = 1;
+  repeated string value = 2;
+}
+
+message DebugInfo {
+  repeated string messageStack = 1; // 调试信息栈
+  optional int64 recommendLatency = 2; //延迟时间（ms）
+  optional string handlerConf = 3;  //handler配置
+  repeated string debugJsonMsg = 4;  //每条msg是一个jsonString
+  optional string countMessage = 5;  //broadway召回的统计信息
+}
+
+service JsfRecProxyService {
+  rpc getRecResult (RecProxyRequest) returns (RecProxyReply) {
+}
+
+}

@@ -1,0 +1,776 @@
+{
+  "encode": "utf-8",
+  "success": true,
+  "error_msg": "",
+  "latency": 134,
+  "impr": "//knicks.jd.com/log/server?t=rec_common_exp&v=type=rec.619350$src=rec$action=0$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$csku=296_3189800,296_35375197884,296_51633940798,33_29577205987,33_31203261025,471_33455834971,6_8764545,203_47190508120,77_6034752,1_19813333398,1_1212521,310_2877592,424_4786190$st=0,0,0,0,0,0,0,0,0$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$gm=$rt=21,21,21,21,21,21,21,21,21$rid=2223145892479106159$ver=1$sig=8e44392d9f0263a3f0229f7c150ec0847265a4f4",
+  "data": [
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=296_3189800,296_35375197884,296_51633940798$index=0$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=2e1b469c0ee02132e45e4a90ff414014bdb1b4f7",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "296",
+      "jp": "",
+      "mi": "378873",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "jayjun",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 1316,
+          "c2": 1381,
+          "c3": 1392,
+          "clk": "",
+          "img": "jfs/t21208/74/845311761/411970/a67b1d00/5b1a4b47Ne7aecbed.png",
+          "impr": "1",
+          "itemid": "3189800",
+          "jp": "128.00",
+          "mp": "0",
+          "renl": 1,
+          "rt": "0",
+          "sku": 3189800,
+          "spu": 3189800,
+          "subsku": [],
+          "t": "韩国进口 捷俊JAYJUN 水光樱花三部曲面膜25ml 10片/盒 男女通用 补水保湿提拉紧致提亮肤色",
+          "tips": [
+            {
+              "t": 67,
+              "v": "seckill"
+            },
+            {
+              "t": 9999,
+              "v": "3"
+            }
+          ],
+          "turl": "",
+          "vspu": "900015208",
+          "w": 0.8079,
+          "wt": "0.4000000059604645"
+        },
+        {
+          "bn": "梦特娇（MONTAGUT）",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 11729,
+          "c2": 11731,
+          "c3": 6916,
+          "clk": "",
+          "img": "jfs/t1/56383/37/6353/183518/5d3e865cEd69dd167/ae943661ec400206.jpg",
+          "impr": "1",
+          "itemid": "35375197884",
+          "jp": "179.00",
+          "mp": "0",
+          "renl": 99,
+          "rt": "0",
+          "sku": 35375197884,
+          "spu": 35375197883,
+          "subsku": [],
+          "t": "【100%牛皮/已质检】【全球限量发售/直降2500】法国梦特娇 精选牛皮百搭透气休闲小白鞋 【尊贵白】-专柜正品 36",
+          "tips": [
+            {
+              "t": 991,
+              "v": "hisSeckill"
+            },
+            {
+              "t": 9999,
+              "v": "0"
+            }
+          ],
+          "turl": "",
+          "w": 0.7665,
+          "wt": "1.2000000476837158"
+        },
+        {
+          "bn": "阳山",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 12218,
+          "c2": 12221,
+          "c3": 13570,
+          "clk": "",
+          "img": "jfs/t1/64001/17/1222/430891/5cf7c01eEc71087ba/c91d4109dbe7eef5.png",
+          "impr": "1",
+          "itemid": "51633940798",
+          "jp": "79.90",
+          "mp": "0",
+          "renl": 99,
+          "rt": "0",
+          "sku": 51633940798,
+          "spu": 51633940797,
+          "subsku": [],
+          "t": "【阳山桃农协会授权】【湖景 蜜露 航空】无锡阳山水蜜桃 水果礼盒 现摘现发 6两果9个装",
+          "tips": [
+            {
+              "t": 993,
+              "v": "categorySeckill"
+            },
+            {
+              "t": 9999,
+              "v": "0"
+            }
+          ],
+          "turl": "",
+          "vspu": "1400402233",
+          "w": 0.7546,
+          "wt": "2.799999952316284"
+        }
+      ],
+      "subsku": [],
+      "t": "秒杀",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    },
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "cdid": "935548",
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=33_29577205987,33_31203261025$index=1$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=2ee0db9bd1b4af2cfa75c4327b80424c89350510",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "33",
+      "jp": "",
+      "mi": "380674",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 0,
+          "c2": 0,
+          "c3": 0,
+          "clk": "",
+          "csp": "",
+          "ct": "",
+          "flag": 0,
+          "img": "",
+          "impr": "1",
+          "itemid": "3230221",
+          "jp": "",
+          "mp": "",
+          "renl": 0,
+          "rt": "12",
+          "sku": 0,
+          "spu": 0,
+          "subsku": [
+            {
+              "bn": "中兴（ZTE）",
+              "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+              "c3": 655,
+              "img": "jfs/t22348/64/2415515900/73419/3ad1bb45/5b56a10dNf2f92b0c.jpg",
+              "jp": "769.00",
+              "mp": "0.00",
+              "sku": 29577205987,
+              "spu": 29577205987,
+              "tips": [
+                {
+                  "t": 218,
+                  "v": "discoverNiceGoodsSkuContent"
+                }
+              ],
+              "title": "中兴（ZTE） V870 手机 NFC版 全网通 丝凝灰 4GB+64GB",
+              "vspu": "500120143",
+              "w": 0,
+              "wt": "0.3499999940395355"
+            }
+          ],
+          "t": "",
+          "tips": [],
+          "turl": "",
+          "w": 0.7084
+        },
+        {
+          "bn": "",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 0,
+          "c2": 0,
+          "c3": 0,
+          "clk": "",
+          "csp": "",
+          "ct": "",
+          "flag": 0,
+          "img": "",
+          "impr": "1",
+          "itemid": "173097038",
+          "jp": "",
+          "mp": "",
+          "renl": 0,
+          "rt": "12",
+          "sku": 0,
+          "spu": 0,
+          "subsku": [
+            {
+              "bn": "洛斐（LOFREE）",
+              "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+              "c3": 826,
+              "img": "jfs/t1/26269/12/14920/133185/5cab026bEf0453e87/7394d4d698f9dbfa.jpg",
+              "jp": "279.00",
+              "mp": "0.00",
+              "sku": 31203261025,
+              "spu": 31203261025,
+              "tips": [
+                {
+                  "t": 216,
+                  "v": "discoverNiceGoodsUserProfileCid3"
+                }
+              ],
+              "title": "LOFREE 洛斐魔毯 无线充 键盘鼠标垫 茶色",
+              "vspu": "500086567",
+              "w": 0,
+              "wt": "0.20000000298023224"
+            }
+          ],
+          "t": "",
+          "tips": [],
+          "turl": "",
+          "w": 0.6788
+        }
+      ],
+      "subsku": [],
+      "t": "发现好货",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    },
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "cdid": "11910320",
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=471_33455834971$index=2$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=3ccf0f1c5c018552060a1e602103623f3e37d519",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "471",
+      "jp": "",
+      "mi": "380569",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "AA网（AA SKINCARE）",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 1316,
+          "c2": 1381,
+          "c3": 1392,
+          "clk": "",
+          "img": "jfs/t1/5864/17/7858/109521/5ba704d5E82c5c6df/8d3838ffd860753d.jpg",
+          "impr": "1",
+          "itemid": "33455834971",
+          "jp": "68.59",
+          "mp": "0",
+          "onTime": "2018-09-25 10:30:49.0",
+          "renl": 99,
+          "rt": "0",
+          "sku": 33455834971,
+          "spu": 33455834971,
+          "subsku": [],
+          "t": "AA网薄荷海盐清洁面膜泥控油去黑头角质深层清洁毛孔垃圾 100.00ml",
+          "tips": [
+            {
+              "t": 170,
+              "v": "bargainPriceSeckill"
+            },
+            {
+              "t": 9999,
+              "v": "0"
+            }
+          ],
+          "turl": "",
+          "vspu": "900044194",
+          "w": 0.9156,
+          "wt": "0.10000000149011612"
+        }
+      ],
+      "subsku": [],
+      "t": "特价秒杀",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    },
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "cdid": "18566",
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=6_8764545$index=3$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=ada28f638a6bea178be00c96e6ae144245bbec3a",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "6",
+      "jp": "",
+      "mi": "378876",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 0,
+          "c2": 0,
+          "c3": 0,
+          "clk": "",
+          "img": "",
+          "impr": "1",
+          "itemid": "24768",
+          "jp": "",
+          "mp": "",
+          "renl": 0,
+          "rt": "2",
+          "sku": 0,
+          "spu": 0,
+          "subsku": [
+            {
+              "bn": "妙然（MR）",
+              "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+              "c3": 15916,
+              "img": "jfs/t28144/12/1596777116/290504/d78f6f3d/5ce64f35N0dea13d5.png",
+              "jp": "15.80",
+              "mp": "0.00",
+              "sku": 8764545,
+              "spu": 8764567,
+              "tips": [
+                {
+                  "t": 1814,
+                  "v": "indexBrandSeckillBehavior"
+                }
+              ],
+              "title": "妙然 欧式简约12L大号无盖分类素色垃圾桶厨房家用客厅卫生间垃圾筒纸篓清洁桶",
+              "vspu": "1000142376",
+              "w": 0,
+              "wt": "0.5"
+            }
+          ],
+          "t": "",
+          "tips": [],
+          "turl": "",
+          "w": 0.636
+        }
+      ],
+      "subsku": [],
+      "t": "品类秒杀-index",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    },
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "cdid": "10724274",
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=203_47190508120$index=4$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=43c92945731ce4ece7308f995feb096e578f0045",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "203",
+      "jp": "",
+      "mi": "378877",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "回力（Warrior）",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 11729,
+          "c2": 11731,
+          "c3": 6916,
+          "clk": "",
+          "did": "10724274",
+          "img": "jfs/t1/67444/7/3/292774/5cd26185E79f54784/6995574ba76dc0a6.png",
+          "impr": "1",
+          "itemid": "47190508120",
+          "jp": "89.00",
+          "mp": "0",
+          "onTime": "2019-05-08 13:06:11.0",
+          "renl": 99,
+          "rt": "0",
+          "sku": 47190508120,
+          "spu": 47190508118,
+          "subsku": [],
+          "t": "回力女鞋小白鞋2019新款学生韩版百搭基础鞋平底原宿风ins板鞋轻便可爱休闲鞋女 粉白（F钩） 37",
+          "tips": [
+            {
+              "t": 401,
+              "v": "indexBehaviorSku"
+            },
+            {
+              "t": 9999,
+              "v": "0"
+            }
+          ],
+          "turl": "",
+          "vspu": "300070176",
+          "w": 0.6742,
+          "wt": "0.800000011920929"
+        }
+      ],
+      "subsku": [],
+      "t": "新品首发",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    },
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "cdid": "14676745",
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=77_6034752$index=5$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=e002d7545a9c9bfeceb611a629b9c4ef27b8ce63",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "77",
+      "jp": "",
+      "mi": "378878",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "苏诺",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 15901,
+          "c2": 15903,
+          "c3": 15916,
+          "clk": "",
+          "img": "jfs/t1/80090/10/504/695449/5ceb50b8Ec4436882/6e15dff12216bfa1.png",
+          "impr": "1",
+          "itemid": "6034752",
+          "jp": "11.89",
+          "mp": "0",
+          "renl": 0,
+          "rt": "0",
+          "sku": 6034752,
+          "spu": 6034752,
+          "subsku": [],
+          "t": "苏诺100只装加厚手提背心式垃圾袋黑色50cm*60cm*5卷家用中号桶用清洁袋",
+          "tips": [
+            {
+              "t": 1666,
+              "v": "793"
+            },
+            {
+              "t": 9999,
+              "v": "0"
+            }
+          ],
+          "turl": "",
+          "vspu": "1000153033",
+          "w": 0.7084,
+          "wt": "0.3709999918937683"
+        }
+      ],
+      "subsku": [],
+      "t": "排行榜",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    },
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "cdid": "3889872",
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=1_19813333398,1_1212521$index=6$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=ab50ad3489738a1d5c6a37ed3f8954c1bf98e810",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "1",
+      "jp": "",
+      "mi": "381042",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 0,
+          "c2": 0,
+          "c3": 0,
+          "clk": "",
+          "img": "",
+          "impr": "1",
+          "itemid": "1908062667",
+          "jp": "",
+          "mp": "",
+          "renl": 0,
+          "rt": "2",
+          "sku": 0,
+          "spu": 0,
+          "subsku": [
+            {
+              "bn": "中兴（ZTE）",
+              "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+              "c3": 655,
+              "img": "jfs/t20329/76/1791110029/552835/c1274534/5b36fa13N0c844810.png",
+              "jp": "598.00",
+              "mp": "0.00",
+              "sku": 19813333398,
+              "spu": 19813333397,
+              "tips": [
+                {
+                  "t": 1810,
+                  "v": "indexFlashsaleBehavior"
+                }
+              ],
+              "title": "中兴（ZTE） A3 / A4人脸识别大电池 Blade双摄三卡全网通4G智能手机 前置柔光双摄 A3曜石黑(3G+32G)",
+              "vspu": "500059009",
+              "w": 0,
+              "wt": "0.5"
+            }
+          ],
+          "t": "",
+          "tips": [],
+          "turl": "",
+          "w": 0.5172
+        },
+        {
+          "bn": "",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 0,
+          "c2": 0,
+          "c3": 0,
+          "clk": "",
+          "img": "",
+          "impr": "1",
+          "itemid": "1908060605",
+          "jp": "",
+          "mp": "",
+          "renl": 0,
+          "rt": "2",
+          "sku": 0,
+          "spu": 0,
+          "subsku": [
+            {
+              "bn": "得力（deli）",
+              "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+              "c3": 723,
+              "img": "jfs/t19888/208/1271583336/512745/ffa3e61e/5b19007eN8ef5eec9.png",
+              "jp": "229.00",
+              "mp": "0.00",
+              "sku": 1212521,
+              "spu": 385564,
+              "tips": [
+                {
+                  "t": 1810,
+                  "v": "indexFlashsaleBehavior"
+                }
+              ],
+              "title": "得力(deli)个人办公碎纸机文件粉碎机 小型家用静音桌面碎纸机33103",
+              "vspu": "500085157",
+              "w": 0,
+              "wt": "5.235000133514404"
+            }
+          ],
+          "t": "",
+          "tips": [],
+          "turl": "",
+          "w": 0.5011
+        }
+      ],
+      "subsku": [],
+      "t": "闪购",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    },
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "cdid": "11270100",
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=310_2877592$index=7$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=6d9e8b008a8c0fd85b9e3cf38ebbcb25323e9ec9",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "310",
+      "jp": "",
+      "mi": "378880",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 0,
+          "c2": 0,
+          "c3": 0,
+          "clk": "",
+          "csp": "42",
+          "ct": "2",
+          "img": "",
+          "impr": "1",
+          "itemid": "150814692",
+          "jp": "",
+          "mp": "",
+          "renl": 0,
+          "rt": "14",
+          "sku": 0,
+          "spu": 0,
+          "subsku": [
+            {
+              "bn": "清风（APP）",
+              "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+              "c3": 15908,
+              "img": "jfs/t18235/135/1090761283/276893/5ec57520/5aba0d30N4e66d26c.jpg",
+              "jp": "65.90",
+              "mp": "0.00",
+              "sku": 2877592,
+              "spu": 4885700,
+              "tips": [
+                {
+                  "t": 2003,
+                  "v": "jdVideoRela"
+                }
+              ],
+              "title": "清风（APP）抽纸 原木纯品金装系列 3层120抽软抽*24包纸巾（整箱销售）（新老包装交替发货）",
+              "vspu": "900007002",
+              "w": 0,
+              "wt": "0.0"
+            }
+          ],
+          "t": "水龙头上包张纸巾太神奇，解决家家户户大难题",
+          "tips": [],
+          "turl": "",
+          "w": 0.9966
+        }
+      ],
+      "subsku": [],
+      "t": "京东视频",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    },
+    {
+      "bn": "",
+      "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "cdid": "11837948",
+      "clk": "//knicks.jd.com/log/server?t=rec_common_clk&v=type=rec.619350$src=rec$action=1$reqsig=7c953e8630f7fbd8682bcb1eda95b4de5c810b9c$enb=1$sku=0$p=619350$pin=jd_734bdce26b823$enp=IKGiFO2HVRpbvLfolsYDKVaeHcNB96sq$uuid=2ff18a64276c3f6b1cd0404df7d8afee2990eedc$csku=424_4786190$index=8$st=0$adcli=$expid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$mexpid=D1@Lnicegoods@302,D1@Lother@608,D1@Lseckill@209,D1@Lrank@501,D1@Lflash@407$im=$rid=2223145892479106159$ver=1$sig=81be3cf9e726c7a90c9f67bd9841783a925c1250",
+      "did": "1092794",
+      "fi": "7089",
+      "img": "",
+      "impr": "1",
+      "itemid": "424",
+      "jp": "",
+      "mi": "378881",
+      "mp": "",
+      "renl": 0,
+      "rt": "21",
+      "sku": 0,
+      "spu": 0,
+      "subitem": [
+        {
+          "bn": "",
+          "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+          "c1": 0,
+          "c2": 0,
+          "c3": 0,
+          "clk": "",
+          "desc": "",
+          "did": "11837948",
+          "img": "",
+          "impr": "1",
+          "itemid": "1000166941",
+          "jp": "",
+          "mp": "1",
+          "renl": 0,
+          "ri": "110000219",
+          "rt": "1",
+          "sku": 1000166941,
+          "spu": 0,
+          "subsku": [
+            {
+              "bn": "全仕康（GUM）",
+              "broker_info": "eyJtZXhwaWQiOiJEMUBMbmljZWdvb2RzQDMwMixEMUBMb3RoZXJANjA4LEQxQExzZWNraWxsQDIwOSxEMUBMcmFua0A1MDEsRDFATGZsYXNoQDQwNyIsImV4cGlkIjoiRDFATG5pY2Vnb29kc0AzMDIsRDFATG90aGVyQDYwOCxEMUBMc2Vja2lsbEAyMDksRDFATHJhbmtANTAxLEQxQExmbGFzaEA0MDciLCJyZXFzaWciOiI3Yzk1M2U4NjMwZjdmYmQ4NjgyYmNiMWVkYTk1YjRkZTVjODEwYjljIn0=",
+              "c3": 16812,
+              "img": "jfs/t26371/278/1081274390/157742/c8b507cc/5bc060a2N27345cb0.png",
+              "jp": "69.00",
+              "mp": "0.00",
+              "sku": 4786190,
+              "spu": 4786186,
+              "tips": [
+                {
+                  "t": 94,
+                  "v": "indexShopSku"
+                }
+              ],
+              "title": "日本GUM进口漱口水 口腔护理牙周炎口气清新漱口液 清新薄荷日用款500ml",
+              "vspu": "900038685",
+              "w": 0,
+              "wt": "0.5649999976158142"
+            }
+          ],
+          "t": "",
+          "tips": [],
+          "turl": "",
+          "w": 0.9311
+        }
+      ],
+      "subsku": [],
+      "t": "新逛好店",
+      "tips": [],
+      "turl": "",
+      "w": 0
+    }
+  ],
+  "recmode": "Broadway",
+  "error_code": 0,
+  "cnt": 0,
+  "requestid": "7c953e8630f7fbd8682bcb1eda95b4de5c810b9c"
+}

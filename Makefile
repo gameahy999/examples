@@ -4,6 +4,7 @@ LIBS = -lpthread
 LIBS += -fopenmp
 
 ALL_SOURCES := main.cpp
+ALL_SOURCES += closure.cpp
 ALL_SOURCES += copy_control.cpp
 ALL_SOURCES += grammer.cpp
 ALL_SOURCES += long_integer.cpp

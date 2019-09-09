@@ -1,3 +1,4 @@
+#include "closure.h"
 #include "copy_control.h"
 #include "grammer.h"
 #include "long_integer.h"
@@ -10,7 +11,8 @@
 #include "test_json.h"
 
 int main() {
-    test_json();
+    test_closure();
+    // test_json();
     // test_callerAndCallee();
     // test_callerAndCalleeFromOuterModule(1, 2, 3);
     // test_copyToVector();

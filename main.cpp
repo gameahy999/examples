@@ -1,5 +1,6 @@
 #include "closure.h"
 #include "copy_control.h"
+#include "folly_stuff.h"
 #include "grammer.h"
 #include "long_integer.h"
 #include "math_experiment.h"
@@ -8,10 +9,13 @@
 #include "parallel_programming.h"
 #include "standard_library.h"
 #include "template_specialization.h"
+#include "test_const.h"
 #include "test_json.h"
 
 int main() {
-    test_closure();
+    test_constVariables();
+    // test_follyStuff();
+    // test_closure();
     // test_json();
     // test_callerAndCallee();
     // test_callerAndCalleeFromOuterModule(1, 2, 3);

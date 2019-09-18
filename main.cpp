@@ -1,3 +1,6 @@
+#include <cstdlib>
+#include <ctime>
+
 #include "closure.h"
 #include "copy_control.h"
 #include "folly_stuff.h"
@@ -13,7 +16,13 @@
 #include "test_json.h"
 
 int main() {
-    test_constVariables();
+    // Do some preparation here
+    std::srand(std::time(0));
+
+    // Begin testing
+    test_sort();
+    // test_resizingVector();
+    // test_constVariables();
     // test_follyStuff();
     // test_closure();
     // test_json();

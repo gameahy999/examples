@@ -1,7 +1,6 @@
 #include <iostream>
 #include "test_const.h"
 
-
 class Kindle {
 public:
     Kindle(float price);
@@ -18,10 +17,10 @@ Kindle::~Kindle() {
     std::cout << "Kindle object deconstructor" << std::endl;
 }
 
-const Kindle kk = Kindle(998.0);
-const float kKindlePrice = 998.0;
+// const Kindle kk = Kindle(998.0);
+// const float kKindlePrice = 998.0;
 // extern const float kKindlePrice = 998.0;
 
 void test_constVariables() {
-    std::cout << "const variable in " << __FILE__ << " is " << kKindlePrice << std::endl;
+    // std::cout << "const variable in " << __FILE__ << " is " << kKindlePrice << std::endl;
 }

@@ -1,8 +1,10 @@
 #include <cstdlib>
 #include <ctime>
 
+#include "boost_stuff.h"
 #include "closure.h"
 #include "copy_control.h"
+#include "default_constructor.h"
 #include "folly_stuff.h"
 #include "grammer.h"
 #include "long_integer.h"
@@ -14,13 +16,18 @@
 #include "template_specialization.h"
 #include "test_const.h"
 #include "test_json.h"
+#include "trait_template.h"
 
 int main() {
     // Do some preparation here
     std::srand(std::time(0));
 
     // Begin testing
-    test_sort();
+    test_traitTemplate();
+    // test_string2Int();
+    // test_defaultConstructor();
+    // test_boostStuff();
+    // test_sort();
     // test_resizingVector();
     // test_constVariables();
     // test_follyStuff();

@@ -105,3 +105,37 @@ void test_sort() {
 
     displayVector<float>(fvec);
 }
+
+int titleVersionString2Int(const std::string& version) {
+    if (version.size() < 2) return -1;
+    if (version[0] != 'v' && version[0] != 'V') return -1;
+
+    try {
+        return std::stoi(version.substr(1));
+    } catch (const std::exception& e) {
+        std::cout << e.what() << std::endl;
+        return -1;
+    }
+}
+
+void test_string2Int() {
+    const std::string a = "v12";
+    std::cout << a << std::endl;
+    std::cout << titleVersionString2Int(a) << std::endl;
+
+    const std::string b = "V12";
+    std::cout << b << std::endl;
+    std::cout << titleVersionString2Int(b) << std::endl;
+
+    const std::string c = "A11";
+    std::cout << c << std::endl;
+    std::cout << titleVersionString2Int(c) << std::endl;
+
+    const std::string d = "";
+    std::cout << d << std::endl;
+    std::cout << titleVersionString2Int(d) << std::endl;
+
+    const std::string e = "vsdf";
+    std::cout << e << std::endl;
+    std::cout << titleVersionString2Int(e) << std::endl;
+}

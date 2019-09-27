@@ -6,8 +6,10 @@ LIBS += -lglog
 LIBS += -lpthread
 
 ALL_SOURCES := main.cpp
+ALL_SOURCES += boost_stuff.cpp
 ALL_SOURCES += closure.cpp
 ALL_SOURCES += copy_control.cpp
+ALL_SOURCES += default_constructor.cpp
 ALL_SOURCES += folly_stuff.cpp
 ALL_SOURCES += grammer.cpp
 ALL_SOURCES += long_integer.cpp
@@ -20,6 +22,7 @@ ALL_SOURCES += template_specialization.cpp
 ALL_SOURCES += test_const.cpp
 ALL_SOURCES += test_json.cpp
 ALL_SOURCES += test_pb.cpp
+ALL_SOURCES += trait_template.cpp
 ALL_SOURCES += utils.cpp
 
 ALL_OBJECTS = $(ALL_SOURCES:.cpp=.o)

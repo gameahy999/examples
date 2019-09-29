@@ -17,13 +17,15 @@
 #include "test_const.h"
 #include "test_json.h"
 #include "trait_template.h"
+#include "trivial_template.h"
 
 int main() {
     // Do some preparation here
     std::srand(std::time(0));
 
     // Begin testing
-    test_traitTemplate();
+    test_nonTypeTemplateParameter();
+    // test_traitTemplate();
     // test_string2Int();
     // test_defaultConstructor();
     // test_boostStuff();

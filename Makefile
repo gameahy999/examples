@@ -1,5 +1,5 @@
 PROG = test
-CFLAGS = -c -Wall -std=c++14 -g -fopenmp
+CFLAGS = -c -Wall -std=c++14 -g -fopenmp -MMD -MP
 LIBS = -fopenmp
 LIBS += -lfolly
 LIBS += -lglog
@@ -23,9 +23,11 @@ ALL_SOURCES += test_const.cpp
 ALL_SOURCES += test_json.cpp
 ALL_SOURCES += test_pb.cpp
 ALL_SOURCES += trait_template.cpp
+ALL_SOURCES += trivial_template.cpp
 ALL_SOURCES += utils.cpp
 
 ALL_OBJECTS = $(ALL_SOURCES:.cpp=.o)
+ALL_HEADER_DEPS:= $(ALL_OBJECTS:.o=.d)
 
 .PHONY: clean all
 
@@ -35,9 +37,12 @@ all: $(PROG)
 %.o: %.cpp
 	g++ $(CFLAGS) $< -o $@
 
+-include $(ALL_HEADER_DEPS)
+
 test: $(ALL_OBJECTS)
 	g++ $^ -o $@ $(LIBS)
 
 clean:
 	-/bin/rm $(PROG)
 	-/bin/rm $(ALL_OBJECTS)
+	-/bin/rm $(ALL_HEADER_DEPS)

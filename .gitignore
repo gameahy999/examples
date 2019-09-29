@@ -2,4 +2,5 @@
 .project
 TAGS
 *.o
+*.d
 test

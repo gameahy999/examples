@@ -9,6 +9,17 @@
  * }
  */
 
+#include <bitset>
+#include <iostream>
+#include <string>
+
+template<int N>
+void printBitset(const std::bitset<N>& bs) {
+    std::cout << bs.template to_string<char,
+                                       std::char_traits<char>,
+                                       std::allocator<char>>() << std::endl;
+}
+
 void test_nonTypeTemplateParameter();
 
 #endif

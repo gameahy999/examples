@@ -24,7 +24,8 @@ int main() {
     std::srand(std::time(0));
 
     // Begin testing
-    test_nonTypeTemplateParameter();
+    test_callFunctionInDerivedClassTemplate();
+    // test_nonTypeTemplateParameter();
     // test_traitTemplate();
     // test_string2Int();
     // test_defaultConstructor();

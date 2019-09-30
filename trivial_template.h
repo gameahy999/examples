@@ -22,4 +22,34 @@ void printBitset(const std::bitset<N>& bs) {
 
 void test_nonTypeTemplateParameter();
 
+template<typename T>
+class BaseClassTemplate {
+public:
+    void exit();
+
+private:
+    T i_;
+};
+
+template<typename T>
+void BaseClassTemplate<T>::exit() {
+    std::cout << "This is the exit function in Base class." << std::endl;
+}
+
+// template<typename T>
+// void Base::exit() {
+//     std::cout << "This is the exit function in Base class." << std::endl;
+// }
+
+template<typename T>
+class DerivedClassTemplate : public BaseClassTemplate<T> {
+public:
+    void foo() {
+        // exit();
+        this->exit();  // this-> is necessary here.
+    }
+};
+
+void test_callFunctionInDerivedClassTemplate();
+
 #endif

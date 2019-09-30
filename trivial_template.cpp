@@ -5,3 +5,8 @@ void test_nonTypeTemplateParameter() {
     // ‘double’ is not a valid type for a template non-type parameter
     // std::cout << process<2.0>(5.0) << std::endl;
 }
+
+void test_callFunctionInDerivedClassTemplate() {
+    DerivedClassTemplate<int> d;
+    d.foo();
+}

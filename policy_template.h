@@ -1,6 +1,8 @@
 #ifndef __POLICY_TEMPLATE_H__
 #define __POLICY_TEMPLATE_H__
 
+namespace CppTemplatesGuide {
+
 class SumPolicy {
 public:
     template<typename T1, typename T2>
@@ -16,5 +18,7 @@ public:
         total *= value;
     }
 };
+
+} // namespace CppTemplatesGuide
 
 #endif

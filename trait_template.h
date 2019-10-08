@@ -3,6 +3,8 @@
 
 #include "policy_template.h"
 
+namespace CppTemplatesGuide {
+
 /*
 template<typename T>
 inline T accum(const T* beg, const T* end) {
@@ -63,7 +65,7 @@ inline typename AccumulationTraits<T>::AccT accum(const T* beg, const T* end) {
 }
 
 template<typename T, typename AT = AccumulationTraits<T> >
-inline typename::AccumulationTraits<T>::AccT super_accum(const T* beg, const T* end) {
+inline typename AccumulationTraits<T>::AccT super_accum(const T* beg, const T* end) {
     using AccT = typename AT::AccT;
 
     AccT total = AT::zero();
@@ -87,6 +89,8 @@ inline typename Traits::AccT best_accum(const T* beg, const T* end) {
     }
     return total;
 }
+
+} // namespace CppTemplatesGuide
 
 void test_traitTemplate();
 

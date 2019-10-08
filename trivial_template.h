@@ -13,6 +13,8 @@
 #include <iostream>
 #include <string>
 
+namespace CppTemplatesGuide {
+
 template<int N>
 void printBitset(const std::bitset<N>& bs) {
     std::cout << bs.template to_string<char,
@@ -49,6 +51,8 @@ public:
         this->exit();  // this-> is necessary here.
     }
 };
+
+} // namespace CppTemplatesGuide
 
 void test_callFunctionInDerivedClassTemplate();
 

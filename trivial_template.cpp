@@ -7,6 +7,6 @@ void test_nonTypeTemplateParameter() {
 }
 
 void test_callFunctionInDerivedClassTemplate() {
-    DerivedClassTemplate<int> d;
+    CppTemplatesGuide::DerivedClassTemplate<int> d;
     d.foo();
 }

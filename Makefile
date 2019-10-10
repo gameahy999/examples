@@ -1,6 +1,7 @@
 PROG = test
 CFLAGS = -c -Wall -std=c++14 -g -fopenmp -MMD -MP
 LIBS = -fopenmp
+LIBS += -lboost_regex
 LIBS += -lfolly
 LIBS += -lglog
 LIBS += -lpthread

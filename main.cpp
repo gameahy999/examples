@@ -24,7 +24,8 @@ int main() {
     std::srand(std::time(0));
 
     // Begin testing
-    test_callFunctionInDerivedClassTemplate();
+    test_boostRegex();
+    // test_callFunctionInDerivedClassTemplate();
     // test_nonTypeTemplateParameter();
     // test_traitTemplate();
     // test_string2Int();

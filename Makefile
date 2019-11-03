@@ -1,5 +1,5 @@
 PROG = test
-CFLAGS = -c -Wall -std=c++14 -g -fopenmp -MMD -MP
+CFLAGS = -c -Wall -std=c++14 -g -O0 -fopenmp -MMD -MP
 LIBS = -fopenmp
 LIBS += -lboost_regex
 LIBS += -lfolly
@@ -21,6 +21,7 @@ ALL_SOURCES += parallel_programming.cpp
 ALL_SOURCES += standard_library.cpp
 ALL_SOURCES += template_specialization.cpp
 ALL_SOURCES += test_const.cpp
+ALL_SOURCES += test_gdb.cpp
 ALL_SOURCES += test_json.cpp
 ALL_SOURCES += test_pb.cpp
 ALL_SOURCES += trait_template.cpp

@@ -15,6 +15,7 @@
 #include "standard_library.h"
 #include "template_specialization.h"
 #include "test_const.h"
+#include "test_gdb.h"
 #include "test_json.h"
 #include "trait_template.h"
 #include "trivial_template.h"
@@ -24,7 +25,8 @@ int main() {
     std::srand(std::time(0));
 
     // Begin testing
-    test_boostRegex();
+    test_gdb();
+    // test_boostRegex();
     // test_callFunctionInDerivedClassTemplate();
     // test_nonTypeTemplateParameter();
     // test_traitTemplate();

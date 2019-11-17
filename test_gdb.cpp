@@ -46,9 +46,15 @@ int compilerOptimization() {
     return sum;
 }
 
+std::string CustomizedDataStructure::debugString() const {
+    return "This is debug string from function call.";
+}
+
 void test_gdb() {
     basicSTLOperations();
     float num = mockFeaturePlugin();
     std::cout << num << std::endl;
     compilerOptimization();
+    CustomizedDataStructure c = CustomizedDataStructure();
+    std::cout << c.s << std::endl;
 }

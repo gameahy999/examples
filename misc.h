@@ -4,5 +4,6 @@
 void test_sortAlgorithms();
 void test_callerAndCallee();
 void test_callerAndCalleeFromOuterModule(int a, int b, int c);
+void test_floatPrecision();
 
 #endif

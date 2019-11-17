@@ -87,3 +87,17 @@ void test_callerAndCallee() {
 void test_callerAndCalleeFromOuterModule(int a, int b, int c) {
     std::cout << a + b + c << std::endl;
 }
+
+static float sigmoid(float x) {return (1 / (1 + exp(-x)));}
+
+void test_floatPrecision() {
+    float a = 0.0419f;
+    float b = a * 0.4;
+    std::cout << "b = " << b << std::endl;
+    float c = sigmoid(b);
+    std::cout << "c = " << c << std::endl;
+
+    float d = 0.0417f;
+    float e = d * 0.4;
+    std::cout << "e = " << e << std::endl;
+}

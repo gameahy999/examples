@@ -101,3 +101,9 @@ void test_floatPrecision() {
     float e = d * 0.4;
     std::cout << "e = " << e << std::endl;
 }
+
+void test_endian() {
+    std::cout << __BYTE_ORDER__ << std::endl;
+    std::cout << __ORDER_LITTLE_ENDIAN__ << std::endl;
+    std::cout << __ORDER_BIG_ENDIAN__ << std::endl;
+}

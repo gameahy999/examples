@@ -25,7 +25,8 @@ int main() {
     std::srand(std::time(0));
 
     // Begin testing
-    test_floatPrecision();
+    test_endian();
+    // test_floatPrecision();
     // test_gdb();
     // test_boostRegex();
     // test_callFunctionInDerivedClassTemplate();

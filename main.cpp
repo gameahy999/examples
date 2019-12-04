@@ -19,13 +19,15 @@
 #include "test_json.h"
 #include "trait_template.h"
 #include "trivial_template.h"
+#include "warmup.h"
 
 int main() {
     // Do some preparation here
     std::srand(std::time(0));
 
     // Begin testing
-    test_endian();
+    test_warmup();
+    // test_endian();
     // test_floatPrecision();
     // test_gdb();
     // test_boostRegex();

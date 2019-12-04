@@ -27,6 +27,7 @@ ALL_SOURCES += test_pb.cpp
 ALL_SOURCES += trait_template.cpp
 ALL_SOURCES += trivial_template.cpp
 ALL_SOURCES += utils.cpp
+ALL_SOURCES += warmup.cpp
 
 ALL_OBJECTS = $(ALL_SOURCES:.cpp=.o)
 ALL_HEADER_DEPS:= $(ALL_OBJECTS:.o=.d)

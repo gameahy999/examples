@@ -75,6 +75,11 @@ void WriteBinaryContentToFile(const std::string& filename, const std::string& st
     std::ofstream outfile(filename, std::ios::binary);
     outfile << str;
     outfile.close();
+    // return outfile;
+}
+
+void AppendBinaryContentToFile(std::ofstream& outfile, const std::string& str) {
+    outfile << str;
 }
 
 void test_warmup() {
@@ -91,9 +96,28 @@ void test_warmup() {
         std::cout << "Error, there is something wrong" << std::endl;
     }
 
-    // WriteBinaryContentToFile("Hello World!");
-    std::string result = ReadBinaryContentFromFile("./resources/myrequest.txt");
-    std::cout << "request file length: " << result.size() << std::endl;
+    std::string body_str = ReadBinaryContentFromFile("./resources/myrequest.txt");
+    std::cout << "request file length: " << body_str.size() << std::endl;
 
     // TODO(ahy)
+    std::ofstream outfile("./tf_serving_warmup_requests.test", std::ios::binary);
+
+    char header[12];
+    EncodeFixed64(header, 88517);  // for length
+    EncodeFixed32(header + 8, MaskedCrc(header, 8));  // for crc of length
+    std::string header_str;
+    header_str.resize(12, 0);
+    memcpy(const_cast<char*>(header_str.c_str()), header, 12);
+    outfile << header_str;
+
+    outfile << body_str;  // for body bytes
+
+    char footer[4];
+    EncodeFixed32(footer, MaskedCrc(body_str.c_str(), body_str.size()));
+    std::string footer_str;
+    footer_str.resize(4, 0);
+    memcpy(const_cast<char*>(footer_str.c_str()), footer, 4);
+    outfile << footer_str; // for crc of body
+
+    outfile.close();
 }

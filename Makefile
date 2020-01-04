@@ -24,6 +24,7 @@ ALL_SOURCES += test_const.cpp
 ALL_SOURCES += test_gdb.cpp
 ALL_SOURCES += test_json.cpp
 ALL_SOURCES += test_pb.cpp
+ALL_SOURCES += test_rvo.cpp
 ALL_SOURCES += trait_template.cpp
 ALL_SOURCES += trivial_template.cpp
 ALL_SOURCES += utils.cpp

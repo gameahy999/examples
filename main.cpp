@@ -27,7 +27,8 @@ int main() {
     std::srand(std::time(0));
 
     // Begin testing
-    test_rvo();
+    test_initializeObjectInArray();
+    // test_rvo();
     // test_warmup();
     // test_endian();
     // test_floatPrecision();

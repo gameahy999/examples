@@ -9,7 +9,7 @@
 
 // static const Person static_p = Person();
 
-Person::Person() : age_(0), name_("LiLei") {
+Person::Person() : age_(18), name_("LiLei") {
     std::cout << "Default Constructor" << std::endl;
 }
 
@@ -89,6 +89,12 @@ void test_copyControl() {
 
     utils::separator(3);
     tmp = p1;
+}
+
+void test_initializeObjectInArray() {
+    Person ps[2];
+    std::cout << ps[0].getAge() << std::endl;
+    std::cout << ps[0].getName() << std::endl;
 }
 
 class Holder {

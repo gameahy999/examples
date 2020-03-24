@@ -28,5 +28,6 @@ void test_copyControl();
 void test_copyReference();
 void test_copyFromStaticVariable();
 void test_copyToVector();
+void test_initializeObjectInArray();
 
 #endif

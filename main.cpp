@@ -12,6 +12,7 @@
 #include "memory_leak.h"
 #include "misc.h"
 #include "parallel_programming.h"
+#include "sine_graph.h"
 #include "standard_library.h"
 #include "template_specialization.h"
 #include "test_const.h"
@@ -27,7 +28,8 @@ int main() {
     std::srand(std::time(0));
 
     // Begin testing
-    test_initializeObjectInArray();
+    MultiThreadDrawSineGraph();
+    // test_initializeObjectInArray();
     // test_rvo();
     // test_warmup();
     // test_endian();

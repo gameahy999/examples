@@ -25,6 +25,8 @@ cc_binary(
     "parallel_programming.cpp",
     "parallel_programming.h",
     "policy_template.h",
+    "sine_graph.cpp",
+    "sine_graph.h",
     "standard_library.cpp",
     "standard_library.h",
     "template_specialization.cpp",
